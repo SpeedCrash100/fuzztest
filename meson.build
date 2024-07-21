@@ -102,3 +102,5 @@ re2 = dependency('re2')
 antlr4_runtime = dependency('antlr4-runtime', method: 'cmake', modules: ['antlr4_static'])
 
 subdir('grammar_codegen')
+subdir('tools')
+subdir('common')
