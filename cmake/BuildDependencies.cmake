@@ -15,6 +15,8 @@ set(gtest_TAG v1.14.0)
 set(antlr_cpp_URL https://www.antlr.org/download/antlr4-cpp-runtime-4.12.0-source.zip)
 set(antlr_cpp_MD5 acf7371bd7562188712751266d8a7b90)
 
+find_package(antlr4-runtime REQUIRED)
+
 set(proto_URL https://github.com/protocolbuffers/protobuf.git)
 set(proto_TAG 33b78e67a92c7ba1ecc2e19a037cd2e12f4c5e27)
 

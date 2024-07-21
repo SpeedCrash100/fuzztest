@@ -1,0 +1,7 @@
+.vscode
+
+subprojects/packagecache
+
+/subprojects/*
+!/subprojects/*.wrap
+!/subprojects/packagefiles

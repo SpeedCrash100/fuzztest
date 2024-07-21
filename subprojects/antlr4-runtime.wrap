@@ -1,0 +1,10 @@
+[wrap-file]
+directory = antlr4-4.12.0
+patch_directory = antlr4-runtime
+
+source_url = https://github.com/antlr/antlr4/archive/refs/tags/4.12.0.tar.gz
+source_filename = antlr4-4.12.0.tar.gz
+source_hash = 8b6050a2111a6bb6405cc5e9e7bca80c136548ac930e4b2c27566d1eb32f8aed
+
+[provide]
+antlr4-runtime = antlr4_runtime_dep
